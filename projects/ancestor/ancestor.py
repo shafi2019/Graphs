@@ -1,7 +1,7 @@
 from util import Queue
 
 def earliest_ancestor(ancestors, starting_node):
-    
+
 # queue of current nodes
     q = Queue()
     # add first node to path set
@@ -33,3 +33,4 @@ def earliest_ancestor(ancestors, starting_node):
 
 
     # loop through final path for largest value
+
